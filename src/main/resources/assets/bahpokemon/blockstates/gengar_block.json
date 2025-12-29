@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/gengar_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/gengar_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/gengar_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/gengar_block_red"
+    }
+  }
+}

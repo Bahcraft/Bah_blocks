@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bahpokemon:block/jigglypuff_block_yellow"
+  }
+}

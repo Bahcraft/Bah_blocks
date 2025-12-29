@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/bulbasaur_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/bulbasaur_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/bulbasaur_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/bulbasaur_block_red"
+    }
+  }
+}

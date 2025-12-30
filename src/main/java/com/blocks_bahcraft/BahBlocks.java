@@ -15,6 +15,7 @@ public class BahBlocks {
     public static final String MOD_ID = "bahblocks";
 
     public BahBlocks() {
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);

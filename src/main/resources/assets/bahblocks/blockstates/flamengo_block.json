@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/flamengo_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/flamengo_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/flamengo_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/flamengo_block_red"
+    }
+  }
+}

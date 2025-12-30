@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/jigglypuff_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/jigglypuff_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/jigglypuff_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/jigglypuff_block_red"
+    }
+  }
+}

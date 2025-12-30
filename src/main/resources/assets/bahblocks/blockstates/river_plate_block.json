@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/river_plate_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/river_plate_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/river_plate_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/river_plate_block_red"
+    }
+  }
+}

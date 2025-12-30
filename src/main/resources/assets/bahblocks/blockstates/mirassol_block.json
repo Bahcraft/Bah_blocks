@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/mirassol_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/mirassol_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/mirassol_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/mirassol_block_red"
+    }
+  }
+}

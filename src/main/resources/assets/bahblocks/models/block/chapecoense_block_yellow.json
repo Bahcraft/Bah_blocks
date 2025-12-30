@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bahblocks:block/chapecoense_block_yellow"
+  }
+}

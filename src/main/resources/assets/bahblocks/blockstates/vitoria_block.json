@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/vitoria_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/vitoria_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/vitoria_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/vitoria_block_red"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/arsenal_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/arsenal_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/arsenal_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/arsenal_block_red"
+    }
+  }
+}

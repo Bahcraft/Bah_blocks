@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "bahpokemon:block/man_city_block_red"
-  }
-}

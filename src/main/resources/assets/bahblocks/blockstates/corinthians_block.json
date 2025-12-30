@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/corinthians_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/corinthians_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/corinthians_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/corinthians_block_red"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/charizard_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/charizard_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/charizard_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/charizard_block_red"
+    }
+  }
+}

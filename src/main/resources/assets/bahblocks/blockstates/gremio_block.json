@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/gremio_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/gremio_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/gremio_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/gremio_block_red"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/remo_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/remo_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/remo_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/remo_block_red"
+    }
+  }
+}

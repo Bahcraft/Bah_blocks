@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bahblocks:block/real_madrid_block_yellow"
+  }
+}

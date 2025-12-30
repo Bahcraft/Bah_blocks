@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bahblocks:block/botafogo_block_red"
+  }
+}

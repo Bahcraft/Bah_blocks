@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahblocks:block/chapecoense_block"
+    },
+    "color=green": {
+      "model": "bahblocks:block/chapecoense_block_green"
+    },
+    "color=yellow": {
+      "model": "bahblocks:block/chapecoense_block_yellow"
+    },
+    "color=red": {
+      "model": "bahblocks:block/chapecoense_block_red"
+    }
+  }
+}

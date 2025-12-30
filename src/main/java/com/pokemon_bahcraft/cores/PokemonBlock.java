@@ -33,28 +33,42 @@ public class PokemonBlock extends Block {
 
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-        if (!level.isClientSide && hand == InteractionHand.MAIN_HAND) {
+        ItemStack item = player.getItemInHand(hand);
 
-            ItemStack item = player.getItemInHand(hand);
-            CorTipo novaCor = null;
+        // Lista de itens que ativam a mudança de cor
+        boolean isItemValido = item.getItem() == Items.EMERALD ||
+                item.getItem() == Items.GOLD_INGOT ||
+                item.getItem() == Items.REDSTONE ||
+                item.getItem() == Items.QUARTZ;
 
-            // 2. Verifica qual item o jogador está segurando
-            if (item.getItem() == Items.EMERALD) {
-                novaCor = CorTipo.GREEN;
-            } else if (item.getItem() == Items.GOLD_INGOT) {
-                novaCor = CorTipo.YELLOW;
-            } else if (item.getItem() == Items.REDSTONE) {
-                novaCor = CorTipo.RED;
-            } else if (item.getItem() == Items.QUARTZ) {
-                novaCor = CorTipo.WHITE;
+        // 1. Se o jogador estiver segurando um dos itens válidos
+        if (isItemValido) {
+
+            // 2. Executa a lógica apenas no Servidor (para salvar no mundo)
+            if (!level.isClientSide) {
+                CorTipo novaCor = null;
+
+                if (item.getItem() == Items.EMERALD) {
+                    novaCor = CorTipo.GREEN;
+                } else if (item.getItem() == Items.GOLD_INGOT) {
+                    novaCor = CorTipo.YELLOW;
+                } else if (item.getItem() == Items.REDSTONE) {
+                    novaCor = CorTipo.RED;
+                } else if (item.getItem() == Items.QUARTZ) {
+                    novaCor = CorTipo.WHITE;
+                }
+
+                if (novaCor != null) {
+                    level.setBlock(pos, state.setValue(COLOR, novaCor), 3);
+                }
             }
 
-            // 3. Se detectou uma cor válida, muda o bloco
-            if (novaCor != null) {
-                level.setBlock(pos, state.setValue(COLOR, novaCor), 3);
-                return InteractionResult.SUCCESS;
-            }
+            // 3. O PULO DO GATO: Retorna SUCCESS em ambos os lados (Cliente e Servidor)
+            // Isso diz ao Minecraft: "A interação foi um sucesso, NÃO coloque o bloco/item no chão."
+            return InteractionResult.SUCCESS;
         }
+
+        // Se não for um item da lista, deixa o jogo seguir o fluxo normal
         return InteractionResult.PASS;
     }
 

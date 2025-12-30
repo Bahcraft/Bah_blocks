@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/colo_colo_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/colo_colo_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/colo_colo_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/colo_colo_block_red"
+    }
+  }
+}

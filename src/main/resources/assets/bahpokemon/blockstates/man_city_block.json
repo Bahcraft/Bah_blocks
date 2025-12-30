@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/man_city_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/man_city_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/man_city_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/man_city_block_red"
+    }
+  }
+}

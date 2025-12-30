@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bahpokemon:block/bahia_block_yellow"
+  }
+}

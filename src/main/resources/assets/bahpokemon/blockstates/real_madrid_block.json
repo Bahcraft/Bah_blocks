@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/real_madrid_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/real_madrid_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/real_madrid_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/real_madrid_block_red"
+    }
+  }
+}

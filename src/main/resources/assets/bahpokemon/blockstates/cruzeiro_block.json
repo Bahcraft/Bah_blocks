@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/cruzeiro_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/cruzeiro_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/cruzeiro_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/cruzeiro_block_red"
+    }
+  }
+}

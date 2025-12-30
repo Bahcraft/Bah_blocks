@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/coritiba_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/coritiba_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/coritiba_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/coritiba_block_red"
+    }
+  }
+}

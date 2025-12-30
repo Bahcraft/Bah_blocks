@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/boca_juniors_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/boca_juniors_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/boca_juniors_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/boca_juniors_block_red"
+    }
+  }
+}

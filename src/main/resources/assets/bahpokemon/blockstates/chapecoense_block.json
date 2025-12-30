@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "bahpokemon:block/chapecoense_block"
+    },
+    "color=green": {
+      "model": "bahpokemon:block/chapecoense_block_green"
+    },
+    "color=yellow": {
+      "model": "bahpokemon:block/chapecoense_block_yellow"
+    },
+    "color=red": {
+      "model": "bahpokemon:block/chapecoense_block_red"
+    }
+  }
+}
